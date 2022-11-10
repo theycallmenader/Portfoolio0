@@ -5,7 +5,7 @@
   } 
   
 body{
-  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 
   
 }
@@ -49,7 +49,6 @@ ul {
     
   }
   .footer-basic {
-    border: solid 2px red ;
     background-color:#fad0c4;
     color:#4b4c4d;
   }
@@ -75,6 +74,9 @@ ul {
   }
   .footer-basic li {
     padding:0 10px;
+    display:flex;
+    position: absolute;
+    width: 100%;
   }
   
   .footer-basic ul a {
@@ -89,8 +91,17 @@ ul {
   
   .footer-basic .social {
     text-align:center;
-   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
+  #resme {
+    display: inline-block;
+    width: 50vw;
+    position: absolute;
+    left: 30vw;
+    top: 170px;
+}
   
   .footer-basic .social > a {
     font-size:24px;
@@ -119,7 +130,10 @@ ul {
   }
   
 #myphoto{
-  border: 2px solid red;
+  display: inline-block;
+  position: absolute;
+  left: 15vw;
+
   border-radius: 500px;
 }
 table{
